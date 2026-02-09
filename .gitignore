@@ -1,0 +1,26 @@
+# Auth Service - Build files
+build_log.txt
+*.exe
+main
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+*.test
+*.out
+coverage.txt
+
+# Docker volumes (local)
+pgdata/
+
+# Environment (keep .env.example, ignore .env)
+.env
+!.env.example
